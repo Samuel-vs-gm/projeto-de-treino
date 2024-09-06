@@ -97,7 +97,7 @@
 font-family: "Tenor Sans, Sistem UI";        }
 
     img, video {
-        max-width: 100%;
+        max-width: 350px;
         height: auto;
         display: block;
         margin: auto;
@@ -124,6 +124,24 @@ font-family: "Tenor Sans, Sistem UI";        }
             color: rgb(0, 162, 255);
         }
 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.288);
+        }
+        th, td {
+            border: 1px solid #3b3b3b;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+       
+
 </style>
 <body>
     <header>
@@ -133,7 +151,7 @@ font-family: "Tenor Sans, Sistem UI";        }
     <nav>
 <a href="index.html">home</a>
 <a href="curiosidades.html">curiosidades</a>
-<a href="https://www.apple.com/br/store?afid=p238%7CsHCe5GbHJ-dc_mtid_1870765e38482_pcrid_703404953263_pgrid_167133564910_pntwk_g_pchan__pexid__ptid_kwd-10778630_&cid=aos-br-kwgo---slid---product-">site oficial</a>
+<a href="https://www.apple.com/br/store?afid=p238%7CsHCe5GbHJ-dc_mtid_1870765e38482_pcrid_703404953263_pgrid_167133564910_pntwk_g_pchan__pexid__ptid_kwd-10778630_&cid=aos-br-kwgo---slid---product-" target="_blank">site oficial</a>
     </nav>
 
     <main>
@@ -154,15 +172,96 @@ font-family: "Tenor Sans, Sistem UI";        }
             </p>
 
 
+            <h1>Os mais famosos</h1>
+
+            <p>
+                Em sua maioria, os computadores sempre fizeram bastante susseço entre as pessoas,
+                com sistemas de navegação unicos e diferentes, conquistam o povo. Por isso, aqui esta uma ista dos 10 computadores mais famosos da apple, após o lançamento do "apple I"!
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Modelo</th>
+                        <th>Ano de Lançamento</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>iMac G3</td>
+                        <td>1998</td>
+                        <td>Revolucionou o design de computadores com seu estilo colorido e inovador.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Macintosh 128K</td>
+                        <td>1984</td>
+                        <td>O primeiro Macintosh, famoso por sua interface gráfica de usuário.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>MacBook Air</td>
+                        <td>2008</td>
+                        <td>Introduziu o conceito de laptop ultra-fino e leve, marcando um novo padrão.</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Apple II</td>
+                        <td>1977</td>
+                        <td>Um dos primeiros computadores pessoais de sucesso comercial.</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>MacBook Pro</td>
+                        <td>2006</td>
+                        <td>Introduziu os primeiros processadores Intel na linha MacBook e ganhou popularidade por seu desempenho.</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>iMac G4</td>
+                        <td>2002</td>
+                        <td>Conhecido como "iMac com o braço de luz", famoso por seu design inovador.</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Mac Pro</td>
+                        <td>2006</td>
+                        <td>Um modelo de desktop de alto desempenho voltado para profissionais criativos.</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Macintosh Plus</td>
+                        <td>1986</td>
+                        <td>Um dos primeiros Macintosh a ter expansão de memória e o primeiro a incluir a interface SCSI.</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Macintosh SE</td>
+                        <td>1987</td>
+                        <td>Introduziu um design compacto e acessível com a opção de expansão interna.</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Macintosh Classic</td>
+                        <td>1990</td>
+                        <td>Uma versão mais acessível do Macintosh SE, popular no mercado de entrada.</td>
+                    </tr>
+                </tbody>
+            </table>
+
             <h2>O Papel de Ronald Wayne</h2>
             <p>Ronald Wayne, um dos cofundadores, vendeu sua participação de 10% na empresa por apenas $800 apenas 12 dias após a fundação. Se ele tivesse mantido sua participação, ela teria valido bilhões hoje.</p>
+      
+
 
             <h2>A Revolução do Apple II</h2>
             <p>Lançado em abril de 1977, o Apple II foi um dos primeiros computadores pessoais a ter um design bem-sucedido e a atingir o mercado em larga escala. Foi o primeiro computador a ter uma caixa plástica moldada em vez de uma caixa de madeira, o que ajudou a estabelecer o padrão para os computadores pessoais.</p>
 
             <h2>O segredo por trás do logotipo da maçã mordida</h2>
-            <p>
-                Maçã mordida da Apple
+                <p>
                 Maçã mordida da Apple
                 De acordo com Jobs, ele foi inspirado a usar uma maçã depois de visitar uma fazenda de maçã, porque a fruta era "divertida, espirituosa e não intimidante".
             </p>
@@ -170,7 +269,34 @@ font-family: "Tenor Sans, Sistem UI";        }
             <p>Foi amplamente especulado que a mordida na maçã era uma homenagem a Alan Turing, o fundador da computação, que havia cometido suicídio consumindo cianureto. Uma maçã comida pela metade foi encontrada ao lado de seu corpo.</p>
             
             <p>Mas a empresa insiste que este não é o caso, e que a mordida foi adicionada à maçã para que não seja confundida com uma cereja.</p>
+
+            <h2>As várias faces de mim!</h2>
+
+            <p>
+                Antes da, tão conhecida, maçã mordida, várias outras "faces" foram utilizadas por ela. Veja à seguir:
+            </p>
       
+            <h2>Logotipo da Apple Computer Co. (1976-1977): </h2>
+            <p>
+                O primeiro logotipo da Apple foi criado por Ronald Wayne, um dos cofundadores da empresa. Ele mostrava Isaac Newton sentado sob uma maçã, com uma fita que dizia “Apple Computer Co.” e a frase “A Mind Forever Voyaging Through Strange Seas of Thought Alone”. Era um logotipo bastante detalhado e com um estilo vitoriano.
+            </p>
+
+            <img src="apple 1.jfif" alt="apple1">
+
+            <h2>Logotipo da Apple com Arco-Íris (1977-1998):</h2>
+
+            <p> Em 1977, Apple adotou o logotipo da maçã mordida com listras coloridas, conhecido como o logotipo "Arco-Íris". Criado por Rob Janoff, o logotipo apresentava uma maçã mordida em um gradiente de cores do arco-íris. Este design foi usado até 1998 e se tornou um dos logotipos mais icônicos da história da empresa.</p>
+
+            <img src="apple 2.png" alt="apple2">
+
+            <h2>Logotipo da Apple Monocromático (1998-2000): </h2>
+
+            <p>
+                Em 1998, Apple começou a usar uma versão monocromática do logotipo da maçã mordida, substituindo as cores do arco-íris por um design mais simples e elegante em preto e branco. Esse logotipo estava em linha com o design mais minimalista da época e refletia a estética dos novos produtos da Apple.
+            </p>
+
+           <img src="apple3.webp" alt="apple3">
+
     </main>
     <aside>
     </aside>
